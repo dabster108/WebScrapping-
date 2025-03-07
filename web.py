@@ -24,8 +24,8 @@ with open('home.html' , 'r') as html_file:
         course_name = course.h5.text
         course_price = course.a.text
 
-        print(course_name)
-        print(course_price)
+        # print(course_name)
+        # print(course_price)
 
         print(f'{course_name} costs {course_price}')
 
