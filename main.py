@@ -72,5 +72,5 @@ def get_item(name : str):
     for item_id in inventory:
         if inventory[item_id] [name] == " name":
             return inventory[item_id]
-    return {"Data" : "Not found"}
+    return {"Data" : "Not founded"}
 
